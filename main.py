@@ -153,8 +153,7 @@ moj_caj = Caj()
 moj_caj = Cukor(moja_kava)
 print(moj_caj.cena())
 
-****************************************************************************************************
-'''
+
 
 
 class AkciovaBurza:
@@ -191,3 +190,9 @@ burza.pridaj_investora(investor1)
 burza.pridaj_investora(investor2)
 
 burza.set_cena_akcie(100)
+
+
+****************************************************************************************************
+'''
+
+
