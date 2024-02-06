@@ -142,6 +142,7 @@ class Cukor(PrisadaDecorator):
     def cena(self):
         return self._napoj.cena() + 2
 
+
 moja_kava = Kava()
 print(moja_kava.cena())
 moja_kava = Mlieko(moja_kava)
