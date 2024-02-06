@@ -68,6 +68,7 @@ print(word.create())
 
 txt =  factory.create_document('txt')
 print(txt.create())
+****************************************************************************************************
 
 
 
@@ -110,6 +111,7 @@ class FormBuilder:
 builder = FormBuilder()
 form = builder.add_name_field().add_address_field().add_email_field().add_ecountry_field().build()
 print(form)
+****************************************************************************************************
 
 
 
@@ -152,6 +154,8 @@ print(moja_kava.cena())
 moj_caj = Caj()
 moj_caj = Cukor(moja_kava)
 print(moj_caj.cena())
+****************************************************************************************************
+
 
 
 
